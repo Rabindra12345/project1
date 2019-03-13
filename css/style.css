@@ -1,18 +1,108 @@
-/*Homepage css *****/
+body {
+ 	margin:0px
 
+ }
+.container{
+	padding: 15px;
+}
+.red{
+	background-color: red;
+}
+.green{
+	background-color: green;
 
-/*end of home page css */
-.brand{
-	height: 150px;
-	width: 150px;
+}
+.yellow{
+	background-color: yellow;
+}
+footer{
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	
+}
+
+ /***Home page css***/
+.brand
+{
+	width: 70px;
+}
+
+.nav{
+	margin-left: 150px
+}
+.nav a {
+	text-decoration: none;
+	text-transform:uppercase;
+	margin-right: 50px;
+}
+.nav a:last-child{
+	margin-right:0;
 }
 .navbar{
-	margin-left: 20px;
-}
-.navbar a{
-	margin-right: 40px;
-}
-.navbar a:last-child{
-	margin-right: 0px;
+
+	position:fixed;
+	width: 100%;
+    height: 100px;
+	top:0;
+	left:0;
+	background-color: lightgray;
+	padding:20px;
+	z-index: 0;
 
 }
+
+.nav a:hover{
+	font-weight: bold;
+}
+.cover-image {
+	margin-top: 100px;
+	/*height: 100px;*/
+	/*width: 100%;*/
+	/*max-width: 100%;*/
+}
+.cover-image img {
+	margin-top: 0px;
+	width: 100%;
+	z-index: 2
+
+}
+.about-section {
+	margin-top: 20px;
+}
+.about-section h1 {
+	padding-top:10px;
+	letter-spacing:0.3em;
+	font-size: 3vw;
+	text-align: center;
+}
+.about-section p {
+	word-spacing: 10px;
+	letter-spacing:0.2em;
+	text-align: center;
+	line-height: 25px;
+	font-family: monospace;
+	
+}
+.card{
+	border: 1px solid lightgray;
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	margin-right: 1%;
+	z-index: 10;
+	border-radius: 5px;
+
+}
+.card:hover{
+	background-color: white;
+	cursor: pointer;
+
+}
+
+/*End of Home page  css */
